@@ -79,9 +79,9 @@ const About = () => {
             </div>
             <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">
-              <a download="" href="../assets/CV Sukma Giri Pratama.pdf">Download CV</a>
+              <a download="" href="CV Sukma Giri Pratama.pdf">Download CV</a>
               </button>
-              <a download="" href="../assets/Portfolio Sukma Giri Pratama.pdf" className="text-gradient btn-link">
+              <a download="" href="Portfolio Sukma Giri Pratama.pdf" className="text-gradient btn-link">
                 Download <br/> Portfolio
               </a>
             </div>

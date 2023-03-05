@@ -11,19 +11,19 @@ const services = [
   {
     name: "UI/UX Design",
     description:
-      "Develop the user interface/experience with design thinking, and web page development",
+      "Develop the user interface/experience design with design thinking method",
     link: "View More",
   },
   {
     name: "Web Development",
     description:
-      "Develop the user interface/experience with design thinking, and web page development",
+      "Front-end Web Development with ReactJs, Tailwindcss & Bootstrap",
     link: "View More",
   },
   {
     name: "Design Graphic",
     description:
-      "Develop the user interface/experience with design thinking, and web page development",
+      "Creating design with tools Photoshop, Figma, Canva, etc.",
     link: "View More",
   },
 ];
@@ -46,7 +46,7 @@ const Services = () => {
             <h2 className="h2 text-accent mb-6 font-semibold">What I Do?</h2>
             <h3 className="h3 max-w-[455px] mb-16 text-[#dfdcc3]">What i offer to best quality web design and development</h3>
             <button className="btn btn-sm">
-            <a download="" href="../assets/Portfolio Sukma Giri Pratama.pdf">See my work</a>
+            <a download="" href="Portfolio Sukma Giri Pratama.pdf">See my work</a>
             </button>
           </motion.div>
           {/* services content */}
@@ -62,16 +62,16 @@ const Services = () => {
                 // destructure service
                 const { name, description, link } = services;
                 return (
-                  <div className="border-b border-[#dfdcc3]/20 h-[148px] mb-[38px] flex" key={index}>
+                  <div className="border-b border-[#dfdcc3]/20 h-[128px] mb-[24px] flex" key={index}>
                     <div className="max-w-[476px]">
                       <h4 className="text-[20px] text-[#dfdcc3] tracking-wider font-primary font-semibold mb-6">{name}</h4>
                       <p className="text-[#dfdcc3] font-secondary leading-tight">{description}</p>
                     </div>
                     <div className="flex flex-col flex-1 items-end">
-                      <a download="" href="../assets/Portfolio Sukma Giri Pratama.pdf" className="btn w-9 h-9 mb-[42px] flex justify-center items-center">
+                      <a download="" href="Portfolio Sukma Giri Pratama.pdf" className="btn w-9 h-9 mb-[42px] flex justify-center items-center">
                         <BsArrowUpRight/>
                       </a>
-                      <a download="" href="../assets/Portfolio Sukma Giri Pratama.pdf" className="text-gradient text-sm">{link}</a>
+                      <a download="" href="Portfolio Sukma Giri Pratama.pdf" className="text-gradient text-sm">{link}</a>
                     </div>
                   </div>
                 );

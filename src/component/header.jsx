@@ -1,9 +1,9 @@
 import React from "react";
 import Logo from "../assets/logo.svg";
-// link
-import { Link } from "react-scroll";
 
 const Header = () => {
+  const showdate = new Date();
+  const dt = showdate.toDateString();
   return (
     <header className="pt-8">
       <div className="container mx-auto">
@@ -11,9 +11,13 @@ const Header = () => {
           <a href="/">
             <img src={Logo} alt="" />
           </a>
-          <Link to="contact" smooth={true} spy={true}>
-            <button className="btn btn-sm">Get in touch</button>
-          </Link>
+          <img src="logoQ.svg" alt="" className="h-[40px]" />
+          <a
+            className="text-lg text-[#dfdcc3] font-semibold font-tertiary "
+            href="https://www.timeanddate.com/calendar/"
+          >
+            {dt}
+          </a>
         </div>
       </div>
     </header>

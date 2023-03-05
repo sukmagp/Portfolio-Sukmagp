@@ -6,6 +6,7 @@ import Header from './component/header';
 import Nav from './component/navbar';
 import Services from './component/services';
 import Work from './component/work';
+import Project from './pages/project';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services/>
       <Work/>
       <Contact/>
+      <Project/>
       {/* <div className='w-auto'></div> */}
     </div>
   );
